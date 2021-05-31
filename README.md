@@ -8,13 +8,13 @@ Our codes have been tested by a KITTI dataset. By using our code, the KITTI data
   If you want to see the result visually, run the **Demo.m** to see the train and test result. The data of the demo used is the Y-direction of sequence-09300018.
 
 
-## HOW TO USE
+## HOW TO USE (Quick start)
 
-  The quick stat is based on KITTI dataset.
+  The quick start is based on KITTI dataset.
   
 ### First step: Delete repeated data
 
-  We use Microsoft excel to delete the repeated data. But if it's too much trouble for you, you can write your own code to delete.
+  We use **Microsoft excel** to delete the repeated data. But if it's too much trouble for you, you can write your own code to delete.
   
 ### Second step: Calculate position error 
 
