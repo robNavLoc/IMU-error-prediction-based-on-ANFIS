@@ -3,12 +3,12 @@
 This project can predict the imu error by using ANFIS.  And we provide a LSTM method to compare with our method.
 Our codes have been tested by a KITTI dataset. By using our code, the KITTI dataset should be downloaded.
 
-DEMO
+## DEMO
 
   If you want to see the result visually, run the Demo.m to see the train and test result. The data of the demo used is the Y-direction of sequence-09300018.
 
 
-HOW TO USE
+## HOW TO USE
 
   The quick stat is based on KITTI dataset.
   
