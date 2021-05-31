@@ -5,7 +5,7 @@ Our codes have been tested by a KITTI dataset. By using our code, the KITTI data
 
 ## DEMO
 
-  If you want to see the result visually, run the **Demo.m** to see the train and test result. The data of the demo used is the Y-direction of sequence-09300018.
+  If you want to see the result visually, run the **Anfis.m** to see the train and test result. The data of the demo used is the Y-direction of sequence-09300018.
 
 
 ## HOW TO USE (Quick start)
@@ -18,14 +18,14 @@ Our codes have been tested by a KITTI dataset. By using our code, the KITTI data
   
 ### Second step: Calculate position error 
 
-  Using **ErrorCalculation.m** to calculate and obtain the position error and other input and output values.
+  Using **ErrorCalculation.m** to calculate after put your data path in the code, and obtain the position error and other input and output values.
 
 ### Third step: Predict position error
 
-  Run **Anfis.m** to predict the position error of IMU and to compare the results between the predicting error and truth error.
+  Run **Anfis.m** to predict the position error of IMU after put your data in the code, and to compare the results between the predicting error and truth error.
 
 ### Forth step: Compare the results
 
-  Run **Lstm.m** to get the results based on the lstem method.
+  Run **Lstm.m** to get the results based on the lstem method after put your data in the code.
   
   
